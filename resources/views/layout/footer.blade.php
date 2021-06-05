@@ -4,7 +4,7 @@
             <div class="col-md-4 offset-md-2">
                 <div class="ftco-footer-widget mb-2">
                     <h2 class="ftco-heading-2">{{ config('app.name') }}</h2>
-                    <p>Aplicador de filtros em imagens</p>
+                    <p>Aplicador de filtros e leitor de textos em imagens</p>
                 </div>
             </div>
             <div class="col-md-4">
