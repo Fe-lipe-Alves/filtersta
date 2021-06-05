@@ -22,7 +22,7 @@
 </head>
 <body>
 
-@include('layout.header')
+@include('layout.header', ['active' => 'image-to-text'])
 
 <div class="js-fullheight bg-light d-flex align-items-center">
     <section class="ftco-section-featured mt-0 ftco-animate vw-100">

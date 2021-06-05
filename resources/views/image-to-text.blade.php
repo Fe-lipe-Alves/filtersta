@@ -22,10 +22,10 @@
 </head>
 <body>
 
-@include('layout.header')
+@include('layout.header', ['active' => 'image-to-text'])
 
 <div class="js-fullheight bg-light d-flex align-items-center">
-    <section class="ftco-section-featured mt-0 ftco-animate">
+    <section class="ftco-section-featured mt-0 ftco-animate vw-100">
         <div class="container-fluid" data-scrollax-parent="true">
             <div class="row mt-5 d-flex justify-content-center">
                 <div class="col-md-8 text-center heading-section ftco-animate">

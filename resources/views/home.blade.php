@@ -22,7 +22,7 @@
 </head>
 <body>
 
-@include('layout.header')
+@include('layout.header', ['active' => 'home'])
 
 <div class="hero-wrap js-fullheight">
     <div class="overlay"></div>
