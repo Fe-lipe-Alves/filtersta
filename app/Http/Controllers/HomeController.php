@@ -33,7 +33,7 @@ class HomeController extends Controller
             $path_get = "../storage/app/".$path_file;
             $path_set = "../storage/app/public/pos/".$nome;
             $command_py = "python ../python/gray-filter.py \"{$path_get}\" \"{$path_set}\"";
-            $response = shell_exec($command_py."  2>&1");
+            shell_exec($command_py);
 
             Storage::delete($path_file);
             return response()->download(storage_path('app/public/pos/'.$nome))->deleteFileAfterSend(true);

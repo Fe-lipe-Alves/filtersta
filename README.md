@@ -1,4 +1,4 @@
-# Finsta - Aplicação de
+# Finsta - Aplicador de filtros e leitor de textos em imagens
 
 ### Instalação
 

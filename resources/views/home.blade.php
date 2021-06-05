@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layout.layout', ['active' => 'home'])
 
 @section('content')
     <div class="hero-wrap js-fullheight">

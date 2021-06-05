@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layout.layout', ['active' => 'filter'])
 
 @section('content')
     <div class="js-fullheight bg-light d-flex align-items-center">
@@ -19,4 +19,8 @@
             </div>
         </section>
     </div>
+
+    <script>
+        window.scroller = false;
+    </script>
 @endsection
