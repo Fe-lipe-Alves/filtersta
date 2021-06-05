@@ -54,10 +54,10 @@
         <div class="container-fluid" data-scrollax-parent="true">
             <div class="row mt-5 d-flex justify-content-center">
                 <div class="col-md-8 text-center heading-section ftco-animate">
-                    <h2 class="h1">Clique no botão e <strong class="px-3">selecione uma imagem</strong> que deseja aplicar os filtros</h2>
+                    <h2 class="h1">Clique no botão e <strong class="px-3">selecione uma imagem</strong> que deseja aplicar o filtro</h2>
                     <p><button id="select-image" type="button" class="btn btn-primary mt-3 py-3 px-5">Selecionar Imagem</button></p>
 
-                    <form action="{{ route('apply-filter') }}" method="post" id="form-image">
+                    <form action="{{ route('apply-filter') }}" method="post" id="form-image" enctype="multipart/form-data">
                         @csrf
                         <input type="file" name="image" id="input-image" class="d-none" accept="image/*">
                     </form>
